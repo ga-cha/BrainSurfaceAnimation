@@ -155,7 +155,7 @@ end
 % Get the vertex or face data and colormap to use
 
 % This is the old way of doing it, it generated a new colormap instead of assigning colours to faces/vertices
-%[FaceVertexCData,new_cmap,new_climits,orig_data_climits] = makeFaceVertexCData_old(vertices,faces,vertex_id,data,cmap,colorFaceBoundaries,1,climits);
+% [FaceVertexCData,new_cmap,new_climits,orig_data_climits] = makeFaceVertexCData_old(vertices,faces,vertex_id,data,cmap,colorFaceBoundaries,1,climits);
 
 FaceVertexCData = makeFaceVertexCData(vertices,faces,vertex_id,data_orig,cmap,climits,colorFaceBoundaries);
 
